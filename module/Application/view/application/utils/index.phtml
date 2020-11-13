@@ -1,0 +1,41 @@
+<div class="tudo">
+	<header class="header">
+		<div class="container">
+			<h1>Gerenciamento de Controladores e Ações</h1>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="container">
+
+			<div class="row">
+				<h2 class="titulo">Controlador</h2>
+			</div>
+
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Nome</th>
+						<th>Alias</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<?php foreach ($controllers as $c): ?>
+						<tr>
+							<td><?php echo $c->getId()?></td>
+							<td><?php echo $c->getName()?></td>
+							<td><?php echo $c->getAlias()?></td>
+							<td><a href="<?php echo $this->url('default',
+									array('controller'=>'utils', 'action'=>'acao'),
+									array('query'=>array('idController'=>$c->getId()))
+								);?>">Visualizar</a></td>
+						</tr>
+					<?php endforeach;?>
+				</tbody>
+			</table>
+		</div>
+	</main>
+
+</div>

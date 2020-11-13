@@ -1,0 +1,9 @@
+.buildpath
+.project
+.zfproject.xml
+.settings/*
+.metadata/*
+LICENSE.txt
+README.md
+installed.json
+vendor/*

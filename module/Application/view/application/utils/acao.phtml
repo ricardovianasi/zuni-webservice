@@ -1,0 +1,43 @@
+<div class="tudo">
+	<header class="header">
+		<div class="container">
+			<h1>Gerenciamento de Controladores e Ações</h1>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="container">
+
+			<div class="row">
+				<h2 class="titulo">Controlador</h2>
+			</div>
+
+			<div class="row">
+				<h4>Id: <?php echo $this->controller->getId(); ?></h4>
+				<h4>Nome: <?php echo $this->controller->getName(); ?></h4>
+				<h4>Alias: <?php echo $this->controller->getAlias(); ?></h4>
+			</div>
+
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Id</th>
+						<th>Nome</th>
+						<th>Alias</th>
+					</tr>
+				</thead>
+				<tbody>
+					<?php foreach ($this->controller->getActions() as $c): ?>
+						<tr>
+							<td><?php echo $c->getId()?></td>
+							<td><?php echo $c->getName()?></td>
+							<td><?php echo $c->getAlias()?></td>
+						</tr>
+					<?php endforeach;?>
+				</tbody>
+			</table>
+			<p><a href="<?php echo $this->url('default', array('controller'=>'utils', 'action'=>'index')); ?>">Voltar</a></p>
+		</div>
+	</main>
+
+</div>

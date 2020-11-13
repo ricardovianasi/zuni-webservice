@@ -1,0 +1,10 @@
+﻿Album publico n�o pode se transforma em privado
+
+Album privado pode ser transformado em publico somente se n�o houver outro album com o mesmo nome
+
+O album publico somente podera ser excluido se n�o houver fotos no album
+
+O album será privado, por padrão. E no ato de criação do album, será concedido permissão à todos os grupos que o usuário tem acesso. O usuário pode editar o esquema
+de permissão adicionando ou removendo mais grupos e/ou pessoas
+
+O usuário que tem acesso a um album pode editá-lo, inclusive as fotos

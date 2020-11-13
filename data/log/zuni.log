@@ -1,0 +1,4 @@
+2015-02-13T09:41:05-02:00 DEBUG (7): Inserindo entidade Application\Entity\PersistentLogin. Campos: {"token":[null,"9015652fc83d9e090be2868ab96540bc"],"createdAt":[null,null],"validUntil":[null,{"date":"2015-02-15 09:41:05.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"}],"user":[null,{}]}
+2015-02-13T09:43:27-02:00 DEBUG (7): Inserindo entidade Application\Entity\Album. Campos: {"name":[null,"Teste logger"],"description":[null,null],"visibility":[null,"public"],"createdAt":[null,{"date":"2015-02-13 09:43:27.000000","timezone_type":3,"timezone":"America\/Sao_Paulo"}],"updatedAt":[null,null],"location":[null,null],"user":[null,{"__initializer__":null,"__cloner__":null,"__isInitialized__":true}]}
+2015-02-13T09:44:17-02:00 DEBUG (7): Alterando entidade Application\Entity\Album com id 143. Data: {"name":["Teste logger","teste logger edit"],"tags":{}}
+2015-02-13T13:59:14-02:00 DEBUG (7): Alterando entidade Application\Entity\Album com id 143. Data: {"tags":{}}

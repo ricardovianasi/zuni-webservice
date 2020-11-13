@@ -1,0 +1,35 @@
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.6;
+	-webkit-text-size-adjust: none;
+}
+
+header.header {
+	background-color: #000;
+	padding: 40px 0;
+}
+
+header.header h1 {
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 800;
+	color: #fff;
+}
+
+main.main {
+
+}
+
+main.main h2.titulo {
+	padding: 20px 0;
+}
+
+main.main .table {
+	margin-top: 20px;
+}
